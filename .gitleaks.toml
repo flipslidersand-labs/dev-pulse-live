@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Phoenix dev/test secret_key_base (non-production)"
+targetRules = ["generic-api-key"]
+paths = ['''^config/(dev|test)\.exs$''']
