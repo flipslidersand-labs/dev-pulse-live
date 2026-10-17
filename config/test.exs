@@ -19,7 +19,7 @@ config :dev_pulse_live, DevPulseLive.Repo,
 # you can enable the server option below.
 config :dev_pulse_live, DevPulseLiveWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "bvH2s320nC7a2x6Jq2ToEkibWO0W1npVrjgwNviDvIO3zryGNyV/RV3vFpgjZM2E",
+  secret_key_base: "test_only_not_a_secret_key_base_do_not_use_in_production_0123456789abcdef",
   server: false
 
 # In test we don't send emails
