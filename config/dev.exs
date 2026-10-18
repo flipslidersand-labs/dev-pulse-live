@@ -24,7 +24,7 @@ config :dev_pulse_live, DevPulseLiveWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "Q5VLhzsmPlBOO0B4KC/Tu1Qp8JxpBG9t7ObWVK8Y/5UZHWIKxShcXm3DVxZYqEHP",
+  secret_key_base: "dev_only_not_a_secret_key_base_do_not_use_in_production_0123456789abcdef",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:dev_pulse_live, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:dev_pulse_live, ~w(--watch)]}
