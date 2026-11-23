@@ -1,5 +1,7 @@
 # dev-pulse-live
 
+Release type: `service`
+
 Real-time GitHub activity dashboard built with Phoenix LiveView + Elixir.
 Displays push commits, pull requests, and issues as they happen — updated live via GitHub Webhooks and a REST API poller.
 
